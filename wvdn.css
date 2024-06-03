@@ -1,0 +1,180 @@
+/*CSS By Sokaren(#22774)*/
+
+
+/*Imports*/
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap"; /*custom font*/
+
+
+/*Media*/
+@media screen and (min-width: 127px){body{background:url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center left fixed; background-size:auto;font-family:'Playfair Display', serif;color:#0c310e; animation:bgss 1440s infinite;} /*Background and defualt font, font color, font size*/
+
+
+/*Attribution (If you use this file 'as is' PLEASE do not remove these lines, if you are modifying this file beyond just minor/color changes you can and may remove these lines [some other form of attribution would be nice but is not required])*/
+div.card-body.pt-1.pb-1::after {content: "" !important;}                                                                                                    /*Removes the attribution line from the lead wolfs icon area*/
+.card-body::after {content: "Sokaren's (#22774) CSS"; color:#4d6525;position: absolute; left: 33%; bottom: 1%; z-index: 100; font-size: 8px !important;}  /*Attribution text*/
+
+
+/*Wolf Stat Bars*/
+#sidebar .progress {height: 7px; position: relative; top: -2px;}                                                                               /*Bar height and position*/
+div#progress-energy.progress-bar.bg-warning{background:#ffbf2f!important;-webkit-box-shadow: inset 0 0 4.5px rgba(100,46,0,0.5) !important;} /*Energy bar color*/
+div#progress-hunger.progress-bar.bg-danger{background:#305323!important;-webkit-box-shadow: inset 0 0 4.5px rgba(1,5,0,0.5) !important;}     /*Hunger bar color*/
+div#progress-hp.progress-bar.bg-info{background:#a52422!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}           /*Health bar color*/
+div#progress-xp.progress-bar.bg-success{background:#616372!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}        /*XP bar color*/
+
+
+/*Pack Stat Bars*/
+div.progress-bar.bg-warning{background:#ffbf2f!important;-webkit-box-shadow: inset 0 0 4.5px rgba(100,46,0,0.5);}           /*Pack Energy bar color*/
+div.progress-bar.bg-primary{background:#24195d!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}   /*Mood bar color*/
+div.progress-bar.bg-danger{background:#305323!important;-webkit-box-shadow: inset 0 0 4.5px rgba(1,5,0,0.5);}               /*Pack Hunger bar color*/
+div.progress-bar.bg-info{background:#a52422!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}      /*Pack Health bar color*/
+div.progress-bar.bg-success{background:#616372!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}   /*Pup survival chance bar color*/
+.progress {background: #e1e1e1 !important;-webkit-box-shadow: inset 0 0 3.5px rgba(65,65,65,0.45); }                      /*All Bars 'empty' color*/
+
+
+/*Scroll-Bar*/
+::-webkit-scrollbar-thumb {background: #efe2d0; border-radius: 42px; -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.5); }             /*Bar*/
+::-webkit-scrollbar-track {background: #181f1f; border-radius: 0px;}													                 /*Track*/
+::-webkit-scrollbar-button {background: #3a4342; border-radius: 0px; -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); }              /*Buttons*/
+::-webkit-scrollbar {width: 14px;}																						                   /*Misc.*/
+::-webkit-scrollbar-corner {background: #3a4342; border-radius: 0px; -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.5); display:none;} /*Corner*/
+
+
+/*Section Colors*/
+div.col-lg-9.order-lg-2{background:linear-gradient(rgba(164,186,183,0.75) 25%, rgba(226,236,234,0) 100%) !important;} /*Main profile backdrop color*/
+tbody tr td {background: rgba(229, 212, 202, 0.0) !important;}													        /*Main lists base color*/
+tbody tr {background: rgb(85 134 146 / 0.5) !important;}														        /*List row color*/
+td.b {background: rgb(121 220 165 / 31%) !important;}																    /*Secondary list base color*/
+th.pt-1.pb-1 {background: rgb(86 86 86 / 50%) !important; color:initial !important; border: none !important;}           /*Secondary list header*/
+div.card-body.pt-1.pb-1 {background: rgba(239, 242, 192, 0.1) !important;}                                              /*Main wolf card base color*/
+.card {background: rgb(192 242 197 / 50%) !important; border: double !important;}                                       /*Cards (mainly sidebar)*/
+div.col-lg-3 {background: linear-gradient(rgb(54 113 117 / 0.58) 32%, rgba(204, 195, 140, 0) 100%) !important; border-right: none !important;}  /*Sidebar backdrop color*/
+div.row.justify-content-center {background: rgb(0 0 0 / 0%) !important; border: none !important; color: rgb(247, 241, 227) !important;}         /*Footer backdrop color*/
+#footer {background-color: #0000; color: #e2e2e2; text-align: center;}                       /*Footer background color*/
+.table-striped tbody tr:nth-of-type(even) {background-color: #97b1bd7f !important;}            /*Lists 'stripe' even*/
+th.top {background: rgb(86 86 86 / 50%) !important; color: rgb(247, 241, 227) !important;}   /*Main lists header*/
+#sidebar #card-user a img {height: auto; outline: solid !important; color: #0a301f !important;}/*used to hide the annoying white border around your companion on the user card*/
+.table {border: 0px solid #252525 !important;}                                                 /*removes the border around all the caves and main body cards*/
+
+
+/*NavBar*/
+.dropdown-menu {position: absolute; top: 100%; left: 0; z-index: 1000; display: none; float: right; min-width: 12rem; padding: .1rem 0; margin: .1rem 0 0; font-size: .875rem; color: #d6d6d6; text-align: center; list-style: circle !important; background-color: #8c8c8cef; background-clip: none; border: 6px solid rgba(0,0,0,.15); border-radius: 2px;}   /*modifies the user drop down menu*/
+.dropdown-divider {height: 0; margin: 0rem 0; overflow: hidden; border-top: 0px solid #ececec;} /*user drop down menu dividers*/
+.navbar { background: rgb(49 49 49) !important; color: rgb(247, 241, 227) !important; }       /*top color*/
+.navbar a.nav-link { color: rgb(128 128 128) !important; font-size: 17px !important; } 	        /*top text color*/
+.navbar-status, .navbar-expand { background: rgb(80 80 80) !important; color: rgb(247, 241, 227) !important; }	/*mid color*/
+.navbar-status, .navbar-expand a.nav-link { color: rgb(183 183 183) !important; font-size: 14px !important; } 	  /*mid text color*/
+span.d-none.d-lg-inline.navbar-text a:hover { color: rgb(47, 27, 15) !important; }                            	  /**/
+a.navbar-brand {filter: drop-shadow(3px 3px 2px #000000bf);}                                                   	  /*adds a drop shadow under the wolvden logo*/
+nav.breadcrumb-nav {background: rgb(169 169 169) !important; color: rgb(47, 27, 15) !important; border-bottom: none !important;}    /*bottom color*/
+nav.navbar.navbar-expand.navbar-dark.flex-wrap.justify-content-center {background: rgba(0, 0, 0, 0) !important;}                      /**/
+li.breadcrumb-item {filter: drop-shadow(1px 1px 0.5px #3c3c3cad)}                                                                     /*adds drop shadow to the text*/
+#header .breadcrumb-nav .breadcrumb {margin-bottom: 0 !important; padding: .15rem 5%; background-color: transparent !important;}      /*bottom text padding*/
+.nav-tabs {border-bottom: 0px solid #e2e2e2;}                               /*removes the line below den and profile buttons*/
+.breadcrumb-item.active {color: #1d1d92;}                                   /*active text*/
+a {color: #00236b; text-decoration: none; background-color: transparent;} /*inactive text*/
+
+
+/*Alerts 'n stuff*/
+.alert, .alert-success {background: #367175af !important; border: dotted !important; color: rgb(247, 227, 215) !important;} /*undefined, normal and sucsess alerts*/
+.alert-danger {background: #a52422 !important; border: solid !important; color: rgb(247, 207, 205) !important;}             /*error or warning alerts*/
+.alert-info {color: rgb(247, 241, 227) !important; background-color: #78cbd6a3 !important; border: dashed !important; border-color: #52a0b9c9 !important;}                                       /*informational alerts*/
+div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important; text-shadow: rgb(133 166 234 / 57%) -1px -1.5px; color: rgb(11 38 76) !important; font-size: 50px !important;} /*stylizing the den's name*/
+.text-success {color: #43cdef !important;}                                                    /*status online*/
+.text-danger {color: #790400 !important;}                                                     /*remove companion button color*/
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {margin-bottom: 0.7rem !important;}  /*header spacing*/
+
+
+/*Icons*/
+.icon-beetle-silver, .icon-silver-cone {background-image: url(http://tiny.cc/hr57tz) !important;}   /*Silver Cone Icon*/
+.icon-beetle-gold, .icon-gold-cone {background-image: url(http://tiny.cc/fr57tz) !important;}       /*Gold Cone Icon*/
+.fa-envelope-open:before {content: "\f2b6" !important;}    /*read messages icon*/
+.fa-box:before {content: "\f466" !important;}              /*modbox icon*/
+.fa-paw:before {content: "\f1b0" !important;}              /*navbar den icon*/
+.fa-globe-americas:before {content: "\f57d" !important;}   /*crossroads icon*/
+.fa-drumstick-bite:before {content: "\f6d7" !important;}   /*hoard icon*/
+.fa-comments:before {content: "\f086" !important;}         /*chatter icon*/
+.fa-feather-alt:before {content: "\f56b" !important;}      /*news icon*/
+.fa-calendar-alt:before {content: "\f073" !important;}     /*event icon*/
+.fa-gem:before {content: "\f3a5" !important;}              /*grove icon*/
+.fa-question-circle:before {content: "\f059" !important;}  /*help icon*/
+.fa-cog:before {content: "\f013" !important;}              /*chatbox setting icon*/
+.fa-minus:before {content: "\f068" !important;}            /*hide chatbox icon*/
+.fa-plus:before {content: "\f067" !important;}             /*show chatbox icon*/
+.fa-sync-alt:before {content: "\f2f1" !important;}         /*refresh chatbox icon*/
+.fa-home:before {content: "\f015" !important;}             /*main body den icon*/
+.fa-user:before {content: "\f007" !important;}             /*user profile icon*/
+.fa-envelope:before {content: "\f0e0";}
+
+
+/*Den Options*/
+hr.flowers { display: block; border: 0; width: 500px; height: 40px; background-image: url(https://cdn.pixabay.com/photo/2012/04/13/01/13/flourish-31609_960_720.png?); background-position: 50%; background-repeat: no-repeat; background-size: cover; opacity: 0.5; filter: drop-shadow(0px 15px 2px #1258);}                                                   /*Den seperator image*/
+.form-control { display: block; width: 100%; height: calc(2.0625rem + 2px); padding: .375rem .75rem; font-size: .875rem; font-weight: 400; line-height: 1.5; color: #d6d6d6; background-color: #274a77; background-clip: padding-box; border: 0px solid #d4d4d4; border-radius: 2px; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;} /*den options drop down box colors*/
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable { background-color: rgb(0, 23, 58); padding: 10px; overflow: auto; overflow-wrap: break-word; color: rgb(216, 216, 216) !important; }                                                                                                  /*html editor colors*/
+.note-editor.note-airframe .note-statusbar, .note-editor.note-frame .note-statusbar { background-color: rgb(24, 72, 132); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top: 0px solid rgb(221, 221, 221); }                                                                                                                         /*html bottom drag bar colors*/
+.note-toolbar .note-btn { background: rgb(0, 34, 97); border-color: rgb(152, 152, 152); padding: 0.12rem 0.42rem; font-size: 13px; }                                                                                                                                                                                                                           /*html editor buttons colors*/
+.btn-sm {color: rgb(175 175 175);background-color: rgb(175, 175, 175);border-color: rgb(255, 255, 255);}
+.floatright, .pull-right {display: inline-block; float: right;}
+
+
+/*Buttons*/
+.btn-success {color: #64fbff; background-color: #36b1d8; border-color: #1b3b80;}/**/
+.btn-danger {color: #f1ca7a; background-color: #ad6d09; border-color: #6d4915;} /*report bug*/
+.btn-warning {color: #7fd084; background-color: #10710b; border-color: #0b4406;}/*buying slots*/
+.btn-primary{color: #64fbff; background-color: #36b1d8; border-color: #1b3b80;} /*growl update and save*/
+.table th a {color: #14b0da;}             	                                        /*'Manage' buttons*/
+
+
+/*Misc.*/
+#sidebar .card-body {padding: 0.65rem !important;}                 	  /*tightens up the sidebar area a bit*/
+img.mr-2 {filter: drop-shadow(-2px 2px 5px #000000df) !important} 	/*adds a dropshadow around most icons*/
+img {filter: drop-shadow(0px 0px 3px #446a67df) !important}       	/*adds a dropshadow around the user icon in the sidebar usercard*/
+ul.nav.nav-tabs a.nav-link {background: rgb(68 255 174 / 14%) !important; color: inital !important; margin: 1px !important; border: none !important;}       /*spacing for main body den and profile buttons And color of inactive button*/
+ul.nav.nav-tabs a.nav-link.active {background: rgb(68 255 205 / 31%) !important; color: inital !important; border: none !important; margin: 1px !important;}/*spacing for main body den and profile buttons And color for active button*/
+hr {border-color: rgb(138 251 189 / 50%) !important;}                                                                                     	                /*color of the horizontal lines on den page*/
+
+
+/*Custom Additions*/
+div.ftc {overflow: auto; border:solid; color: #2577; outline:double}  /*lets the image be scrolled and applies this to all <div>'s with the class 'ftc'*/
+input:not(:checked) + div.ftc { display: none; }                        /*functionally a check box*/
+
+
+												/*	__		'''	  _		----Animations----	   _   '''	   __   */
+
+
+/*circle text animation begin*/
+.circletextani span {display:table-cell; animation:circle 2s infinite;} /*applies the animation to almost any html object with the class of 'circletextani'*/
+
+@keyframes circle {
+0%, 100%{transform:translate(0px,-2.0px); color: inherit; filter: drop-shadow(5px 13px 3px #131d); text-shadow: rgb(0 0 0) -1.5px -1.5px;}
+6.25%{transform:translate(-0.7px,-1.9px);}
+12.5%{transform:translate(-1.4px,-1.4px);}
+18.75%{transform:translate(-1.9px,-0.7px); color: #4b7}
+25%{transform:translate(-2.0px, 0px);}
+31.25%{transform:translate(-1.9px,0.7px);}
+37.5%{transform:translate(-1.4px,1.4px); color: inherit}
+43.75%{transform:translate(-0.7px,1.9px);}
+50%{transform:translate(0px, 2.0px);}
+56.25%{transform:translate(0.7px,1.9px);}
+62.5%{transform:translate(1.4px,1.4px);}
+68.75%{transform:translate(1.9px,0.7px);}
+75%{transform:translate(2.0px, 0px);}
+81.25%{transform:translate(1.9px,-0.7px);}
+87.5%{transform:translate(1.4px,-1.4px);}
+93.75%{transform:translate(0.7px,-1.9px);}
+}
+/*the line below is offsetting each <span> object in the html object's animation (only up to 20 <span>'s)*/
+.circletextani span:nth-child(1) {animation-delay:0s;}.circletextani span:nth-child(2) {animation-delay:.1s;}.circletextani span:nth-child(3) {animation-delay:.2s;}.circletextani span:nth-child(4) {animation-delay:.3s;}.circletextani span:nth-child(5) {animation-delay:.4s;}.circletextani span:nth-child(6) {animation-delay:.5s;}.circletextani span:nth-child(7) {animation-delay:.6s;}.circletextani span:nth-child(8) {animation-delay:.7s;}.circletextani span:nth-child(9) {animation-delay:.8s;}.circletextani span:nth-child(10) {animation-delay:.9s;}.circletextani span:nth-child(11) {animation-delay:1.0s;}.circletextani span:nth-child(12) {animation-delay:1.1s;}.circletextani span:nth-child(13) {animation-delay:1.2s;}.circletextani span:nth-child(14) {animation-delay:1.3s;}.circletextani span:nth-child(15) {animation-delay:1.4s;}.circletextani span:nth-child(16) {animation-delay:1.5s;}.circletextani span:nth-child(17) {animation-delay:1.6s;}.circletextani span:nth-child(18) {animation-delay:1.7s;}.circletextani span:nth-child(19) {animation-delay:1.8s;}.circletextani span:nth-child(20) {animation-delay:1.9s;}
+/*circle text animation end*/
+
+/*Background slide show begin*/
+@keyframes bgss {
+0%, 100%{background:url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center center fixed; background-size: cover;}
+24%{background:url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center center fixed; background-size: cover;}
+25%{background:url("https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+49%{background:url("https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+50%{background:url("https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+74%{background:url("https://images.pexels.com/photos/3265460/pexels-photo-3265460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+75%{background:url("https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+99%{background:url("https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") center center fixed; background-size: cover;}
+}
+/*background slide show end*/
