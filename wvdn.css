@@ -70,7 +70,7 @@ a {color: #00236b; text-decoration: none; background-color: transparent;} /*inac
 .alert, .alert-success {background: #367175af !important; border: dotted !important; color: rgb(247, 227, 215) !important;} /*undefined, normal and sucsess alerts*/
 .alert-danger {background: #a52422 !important; border: solid !important; color: rgb(247, 207, 205) !important;}             /*error or warning alerts*/
 .alert-info {color: rgb(247, 241, 227) !important; background-color: #78cbd6a3 !important; border: dashed !important; border-color: #52a0b9c9 !important;}                                       /*informational alerts*/
-div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important; text-shadow: rgb(133 166 234 / 57%) -1px -1.5px; color: rgb(11 38 76) !important; font-size: 50px !important;} /*stylizing the den's name*/
+div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important; text-shadow: rgb(133 166 234 / 57%) -1px -1.5px; color: rgb(87 139 139) !important; font-size: 50px !important;} /*stylizing the den's name*/
 .text-success {color: #43cdef !important;}                                                    /*status online*/
 .text-danger {color: #790400 !important;}                                                     /*remove companion button color*/
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {margin-bottom: 0.7rem !important;}  /*header spacing*/
