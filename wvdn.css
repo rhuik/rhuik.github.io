@@ -3,7 +3,7 @@
 
 
 /*Media*/
-@media screen and (min-width: 127px){body{background:url("https://images.pexels.com/photos/733116/pexels-photo-733116.jpeg") center left fixed; background-size:auto;font-family: "Source Code Pro", monospace;color:#002D2D; animation:bgss 1440s infinite;} /*Background and defualt font, font color, font size*/
+@media screen and (min-width: 127px){body{background:url("https://images.pexels.com/photos/733116/pexels-photo-733116.jpeg") center left fixed; background-size:auto;font-family: 'Source Code Pro', monospace;color:#002D2D; animation:bgss 1440s infinite;} /*Background and defualt font, font color, font size*/
 
 
 /*Wolf Stat Bars (edited up to energy)*/
