@@ -3,7 +3,7 @@
 
 
 /*Media*/
-@media screen and (min-width: 127px){body{background:url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg") center left fixed; background-size:auto;font-family:'Playfair Display', serif;color:#0c310e; animation:bgss 1440s infinite;} /*Background and defualt font, font color, font size*/
+@media screen and (min-width: 127px){body{background:url("https://images.pexels.com/photos/733116/pexels-photo-733116.jpeg") center left fixed; background-size:auto;font-family:'Playfair Display', serif;color:#0c310e; animation:bgss 1440s infinite;} /*Background and defualt font, font color, font size*/
 
 
 /*Attribution (If you use this file 'as is' PLEASE do not remove these lines, if you are modifying this file beyond just minor/color changes you can and may remove these lines [some other form of attribution would be nice but is not required])*/
