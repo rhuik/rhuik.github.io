@@ -17,7 +17,7 @@ div#progress-xp.progress-bar.bg-success{background:#14254D!important;-webkit-box
 /*Pack Stat Bars*/
 div.progress-bar.bg-warning{background:#74BA74!important;-webkit-box-shadow: inset 0 0 4.5px rgba(16,92,16,0.5);}           /*Pack Energy bar color*/
 div.progress-bar.bg-primary{background:#41537E!important;-webkit-box-shadow: inset 0 0 4.5px rgba(20,37,77,0.5) !important;}   /*Mood bar color*/
-div.progress-bar.bg-danger{background:#BC9A56!important;-webkit-box-shadow: inset 0 0 4.5px rgba(1,5,0,0.5);}               /*Pack Hunger bar color*/
+div.progress-bar.bg-danger{background:#BC9A56!important;-webkit-box-shadow: inset 0 0 4.5px rgba(115,83,20,0.5);}               /*Pack Hunger bar color*/
 div.progress-bar.bg-info{background:#a52422!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}      /*Pack Health bar color*/
 div.progress-bar.bg-success{background:#14254D!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}   /*Pup survival chance bar color*/
 .progress {background: #e1e1e1 !important;-webkit-box-shadow: inset 0 0 3.5px rgba(65,65,65,0.45); }                      /*All Bars 'empty' color*/
@@ -112,8 +112,8 @@ hr.flowers { display: block; border: 0; width: 500px; height: 40px; background-i
 .btn-success {color: #64fbff; background-color: #36b1d8; border-color: #1b3b80;}/**/
 .btn-danger {color: #f1ca7a; background-color: #ad6d09; border-color: #6d4915;} /*report bug*/
 .btn-warning {color: #7fd084; background-color: #10710b; border-color: #0b4406;}/*buying slots*/
-.btn-primary{color: #64fbff; background-color: #36b1d8; border-color: #1b3b80;} /*growl update and save*/
-.table th a {color: #14b0da;}             	                                        /*'Manage' buttons*/
+.btn-primary{color: #41537E; background-color: #14254D; border-color: #051332;} /*growl update and save*/
+.table th a {color: #14254D;}             	                                        /*'Manage' buttons*/
 
 
 /*Misc.*/
