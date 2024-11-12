@@ -10,7 +10,7 @@
 #sidebar .progress {height: 7px; position: relative; top: -2px;}                                                                               /*Bar height and position*/
 div#progress-energy.progress-bar.bg-warning{background:#74BA74!important;-webkit-box-shadow: inset 0 0 4.5px rgba(16,92,16,0.5) !important;} /*Energy bar color*/
 div#progress-hunger.progress-bar.bg-danger{background:#BC9A56!important;-webkit-box-shadow: inset 0 0 4.5px rgba(115,83,20,0.5) !important;}     /*Hunger bar color*/
-div#progress-hp.progress-bar.bg-info{background:#a52422!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}           /*Health bar color*/
+div#progress-hp.progress-bar.bg-info{background:#66657B!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}           /*Health bar color*/
 div#progress-xp.progress-bar.bg-success{background:#14254D!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}        /*XP bar color*/
 
 
@@ -18,7 +18,7 @@ div#progress-xp.progress-bar.bg-success{background:#14254D!important;-webkit-box
 div.progress-bar.bg-warning{background:#74BA74!important;-webkit-box-shadow: inset 0 0 4.5px rgba(16,92,16,0.5);}           /*Pack Energy bar color*/
 div.progress-bar.bg-primary{background:#41537E!important;-webkit-box-shadow: inset 0 0 4.5px rgba(20,37,77,0.5) !important;}   /*Mood bar color*/
 div.progress-bar.bg-danger{background:#BC9A56!important;-webkit-box-shadow: inset 0 0 4.5px rgba(115,83,20,0.5);}               /*Pack Hunger bar color*/
-div.progress-bar.bg-info{background:#a52422!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}      /*Pack Health bar color*/
+div.progress-bar.bg-info{background:#66657B!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}      /*Pack Health bar color*/
 div.progress-bar.bg-success{background:#14254D!important;-webkit-box-shadow: inset 0 0 4.5px rgba(0,0,0,0.5) !important;}   /*Pup survival chance bar color*/
 .progress {background: #e1e1e1 !important;-webkit-box-shadow: inset 0 0 3.5px rgba(65,65,65,0.45); }                      /*All Bars 'empty' color*/
 
@@ -77,8 +77,8 @@ div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important
 
 
 /*Icons*/
-.icon-beetle-silver, .icon-silver-cone {background-image: url(http://tiny.cc/hr57tz) !important;}   /*Silver Cone Icon*/
-.icon-beetle-gold, .icon-gold-cone {background-image: url(http://tiny.cc/fr57tz) !important;}       /*Gold Cone Icon*/
+/*.icon-beetle-silver, .icon-silver-cone {background-image: url(http://tiny.cc/hr57tz) !important;}   /*Silver Cone Icon*/
+/*.icon-beetle-gold, .icon-gold-cone {background-image: url(http://tiny.cc/fr57tz) !important;}       /*Gold Cone Icon*/
 .fa-envelope-open:before {content: "\f2b6" !important;}    /*read messages icon*/
 .fa-box:before {content: "\f466" !important;}              /*modbox icon*/
 .fa-paw:before {content: "\f1b0" !important;}              /*navbar den icon*/
@@ -99,8 +99,8 @@ div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important
 
 
 /*Den Options*/
-hr.flowers { display: block; border: 0; width: 500px; height: 40px; background-image: url(https://cdn.pixabay.com/photo/2012/04/13/01/13/flourish-31609_960_720.png?); background-position: 50%; background-repeat: no-repeat; background-size: cover; opacity: 0.5; filter: drop-shadow(0px 15px 2px #1258);}                                                   /*Den seperator image*/
-.form-control { display: block; width: 100%; height: calc(2.0625rem + 2px); padding: .375rem .75rem; font-size: .875rem; font-weight: 400; line-height: 1.5; color: #d6d6d6; background-color: #274a77; background-clip: padding-box; border: 0px solid #d4d4d4; border-radius: 2px; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;} /*den options drop down box colors*/
+hr.flowers { display: flex; border: 0; width: 500px; height: 40px; background-image: url(https://cdn.pixabay.com/photo/2012/04/13/01/13/flourish-31609_960_720.png?); background-position: 50%; background-repeat: no-repeat; background-size: cover; opacity: 0.5; filter: drop-shadow(0px 15px 2px #1258);}                                                   /*Den seperator image*/
+.form-control { display: flex; width: 100%; height: calc(2.0625rem + 2px); padding: .375rem .75rem; font-size: .875rem; font-weight: 400; line-height: 1.5; color: #d6d6d6; background-color: #274a77; background-clip: padding-box; border: 0px solid #d4d4d4; border-radius: 2px; transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;} /*den options drop down box colors*/
 .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable { background-color: rgb(0, 23, 58); padding: 10px; overflow: auto; overflow-wrap: break-word; color: rgb(216, 216, 216) !important; }                                                                                                  /*html editor colors*/
 .note-editor.note-airframe .note-statusbar, .note-editor.note-frame .note-statusbar { background-color: rgb(24, 72, 132); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; border-top: 0px solid rgb(221, 221, 221); }                                                                                                                         /*html bottom drag bar colors*/
 .note-toolbar .note-btn { background: rgb(0, 34, 97); border-color: rgb(152, 152, 152); padding: 0.12rem 0.42rem; font-size: 13px; }                                                                                                                                                                                                                           /*html editor buttons colors*/
