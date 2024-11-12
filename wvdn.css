@@ -68,7 +68,7 @@ a {color: #00236b; text-decoration: none; background-color: transparent;} /*inac
 
 /*Alerts 'n stuff*/
 .alert, .alert-success {background: #367175af !important; border: dotted !important; color: rgb(247, 227, 215) !important;} /*undefined, normal and sucsess alerts*/
-.alert-danger {background: #a52422 !important; border: solid !important; color: rgb(247, 207, 205) !important;}             /*error or warning alerts*/
+.alert-danger {background: #66657B !important; border: solid !important; color: rgb(204, 202, 246) !important;}             /*error or warning alerts*/
 .alert-info {color: rgb(247, 241, 227) !important; background-color: #78cbd6a3 !important; border: dashed !important; border-color: #52a0b9c9 !important;}                                       /*informational alerts*/
 div.col-lg-9.order-lg-2 h1 {filter: drop-shadow(8px 8px 5px #000000bf)!important; text-shadow: rgb(133 166 234 / 57%) -1px -1.5px; color: rgb(87 139 139) !important; font-size: 50px !important;} /*stylizing the den's name*/
 .text-success {color: #43cdef !important;}                                                    /*status online*/
