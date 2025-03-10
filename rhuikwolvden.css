@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
 
 /*
 	COLOR PALETTE (darkest to lightest)
@@ -13,7 +13,7 @@
 /* WHOLE PAGE */
 
 * {
-	font-family: 'Expletus+Sans';
+	font-family: 'Outfit';
 	cursor: url("https://iili.io/3f8DInV.png"), default;
 }
 
@@ -660,7 +660,7 @@ img, .form-control, .note-btn {
 .tab-content2 h1 {
     font-size: 21px;
     margin-bottom: 7px !important;
-    font-family: 'Redressed';
+    font-family: 'Underdog';
 }
 
 
