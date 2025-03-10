@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Underdog&display=swap');
 
 /*
 	COLOR PALETTE (darkest to lightest)
@@ -13,7 +12,8 @@
 /* WHOLE PAGE */
 
 * {
-	font-family: 'Outfit';
+	font-family: "Expletus Sans", sans-serif;
+  	font-optical-sizing: auto; /* added */
 	cursor: url("https://iili.io/3f8DInV.png"), default;
 }
 
