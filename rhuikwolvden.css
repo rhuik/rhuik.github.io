@@ -542,14 +542,14 @@ img, .form-control, .note-btn {
 
 .TopContainerDecor {
     width:100%;
-    justify-content:right;
+    justify-content:left; /* change to right or left*/
     padding: 0px;
     position: relative;
     z-index:1;
 }
 
 .TopContainerDecor img {
-    float:right;
+    float:left; /* change to right or left*/
     position: absolute;
     bottom:-3px;
     margin-left:12%;
