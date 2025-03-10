@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family= Expletus+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 /*
@@ -13,9 +13,8 @@
 /* WHOLE PAGE */
 
 * {
-	font-family: ' Expletus+Sans';
-	cursor: url("https://iili.io/3f89p5X.gif"), default;
-	cursor: url("https://iili.io/3f89yen.gif"), default!important;
+	font-family: 'Expletus+Sans';
+	cursor: url("https://iili.io/3f8DInV.png"), default;
 }
 
 .navbar-brand {
@@ -175,7 +174,7 @@ input.form-control, input.form-control:focus, select.form-control, select.form-c
 }
 
 .card.text-center .card-img-top {
-  filter: sepia(100%) brightness(90%);
+  filter: saturation(100%) brightness(90%);
 }
 
 .card-header {
@@ -456,21 +455,21 @@ img, .form-control, .note-btn {
 
 ::-webkit-scrollbar {
 	width: 9px;
-  cursor: url('https://iili.io/3f89p5X.gif'), auto;
+  cursor: url('https://iili.io/3f8DInV.png'), auto;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  cursor: url('https://iili.io/3f89p5X.gif'), auto;
+  cursor: url('https://iili.io/3f8DInV.png'), auto;
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgba(109, 114, 143, 1);
   border-radius: 10px;
-  cursor: url('https://iili.io/3f89p5X.gif'), auto;
+  cursor: url('https://iili.io/3f8DInV.png'), auto;
 }
 
 ::-webkit-scrollbar-track {
-  cursor: url('https://iili.io/3f89p5X.gif'), auto;
+  cursor: url('https://iili.io/3f8DInV.png'), auto;
 }
 
 #chatMessageList::-webkit-scrollbar-track, #chatMessageList::-webkit-scrollbar-track:hover {
