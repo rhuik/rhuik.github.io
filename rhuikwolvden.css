@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css?family= Expletus+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 /*
@@ -13,7 +13,7 @@
 /* WHOLE PAGE */
 
 * {
-	font-family: 'Caveat';
+	font-family: ' Expletus+Sans';
 	cursor: url("https://iili.io/3f89p5X.gif"), default;
 	cursor: url("https://iili.io/3f89yen.gif"), default!important;
 }
